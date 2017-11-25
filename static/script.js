@@ -2,13 +2,6 @@
 /*global $, jQuery, alert*/
 'use strict';
 
-$(document).ready(function () {
-    $('.contact-header').on('click', function (ev) {
-        $('.contact-container').slideToggle();
-    });
-
-});
-
 //building
 
 var property = $('.property');
@@ -29,7 +22,7 @@ $(document).ready(function(){
 });
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items: 2,
+    items: 1,
     loop: true,
     margin: 0,
     autoplay: true,

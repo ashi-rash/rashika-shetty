@@ -1,14 +1,5 @@
 /* color: #353e4c; */
 
-.building-section {
-    width: 100%;
-    position: relative;
-    height: 70vh;
-    color: #353e4c;
-    font-size: 2em;
-    background-color: #e8e8e8;
-    overflow: hidden;
-}
 
 .property {
     position: absolute;

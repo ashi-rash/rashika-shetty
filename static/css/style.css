@@ -162,10 +162,25 @@ nav {
   width: 50%;
   display: block;
   margin: 0 auto; }
+  @media only screen and (max-device-width: 480px) {
+    .quote {
+      width: 100%; } }
   .quote span {
     display: block;
     text-align: right;
     padding: 10px; }
+
+.building-section {
+  width: 100%;
+  position: relative;
+  height: 70vh;
+  color: #353e4c;
+  font-size: 2em;
+  background-color: #e8e8e8;
+  overflow: hidden; }
+  @media only screen and (max-device-width: 480px) {
+    .building-section {
+      height: 90vh; } }
 
 .bottom-line {
   height: 5px;

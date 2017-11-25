@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav {
     background-color: rgba(255, 255, 255, 0.4);
     height: 10vh;
@@ -189,6 +188,21 @@ nav {
         padding-top: 30px;
         text-align: center;
         font-family: sans-serif;
+    }
+}
+
+.quote {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    span{
+        display: block;
+        text-align: right;
+        padding: 10px;
     }
 }
 

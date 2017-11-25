@@ -154,6 +154,19 @@ nav {
     text-align: center;
     font-family: sans-serif; }
 
+.quote {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto; }
+  .quote span {
+    display: block;
+    text-align: right;
+    padding: 10px; }
+
 .bottom-line {
   height: 5px;
   width: 100%;

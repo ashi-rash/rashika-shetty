@@ -2,6 +2,14 @@
 /*global $, jQuery, alert*/
 'use strict';
 
+
+$(document).ready(function () {
+    $('.contact-header').on('click', function (ev) {
+        $('.contact-container').slideToggle();
+    });
+
+});
+
 //building
 
 var property = $('.property');
@@ -10,11 +18,13 @@ var toggleClass = function(el) {
   el.toggleClass('build');
 };
 
-property.on('click', function() {
+property.on('click', build); 
+ function build() {
   toggleClass(property);
-});
+};
 
 setTimeout(function() { toggleClass(property) }, 250);
+
 
 // carousel
 $(document).ready(function(){

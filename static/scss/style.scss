@@ -184,6 +184,68 @@ nav {
     }
 }
 
+.contact {
+    margin: 25px auto;
+    height: 25vh;
+    position: relative;
+    .contact-header {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+        margin: 30px auto;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .contact-container {
+        display: block;
+        position: relative;
+        .social {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+            @media only screen and (max-device-width: 480px) {
+                width: 100%;
+            }
+            li {
+                display: inline-block;
+                margin: 10px;
+                list-style: none;
+                width: 50px;
+                cursor: pointer;
+                overflow: hidden;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 50%;
+                background-color: white;
+                transition: 400ms background-color ease, 400ms border-color ease;
+                &:hover {
+                    background-color: black;
+                    border-color: white;
+                    .fa {
+                        color: white;
+                    }
+                }
+                a {
+                    color: black;
+                    .fa {
+                        padding-top: 12px;
+                        font-size: 25px;
+                        transition: 400ms color ease;
+                    }
+                }
+            }
+        }
+        address {
+            text-align: center;
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+        }
+    }
+}
 .footer {
     background-color: black;
     height: 80px;

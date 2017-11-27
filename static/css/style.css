@@ -149,6 +149,58 @@ nav {
           font-weight: 800;
           text-transform: uppercase; }
 
+.contact {
+  margin: 25px auto;
+  height: 25vh;
+  position: relative; }
+  .contact .contact-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    margin: 30px auto;
+    font-size: 35px;
+    cursor: pointer; }
+  .contact .contact-container {
+    display: block;
+    position: relative; }
+    .contact .contact-container .social {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      text-align: center; }
+      @media only screen and (max-device-width: 480px) {
+        .contact .contact-container .social {
+          width: 100%; } }
+      .contact .contact-container .social li {
+        display: inline-block;
+        margin: 10px;
+        list-style: none;
+        width: 50px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: white;
+        transition: 400ms background-color ease, 400ms border-color ease; }
+        .contact .contact-container .social li:hover {
+          background-color: black;
+          border-color: white; }
+          .contact .contact-container .social li:hover .fa {
+            color: white; }
+        .contact .contact-container .social li a {
+          color: black; }
+          .contact .contact-container .social li a .fa {
+            padding-top: 12px;
+            font-size: 25px;
+            transition: 400ms color ease; }
+    .contact .contact-container address {
+      text-align: center; }
+      .contact .contact-container address a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black; }
+
 .footer {
   background-color: black;
   height: 80px; }
